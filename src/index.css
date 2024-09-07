@@ -1,0 +1,28 @@
+@import url(./font.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'MontserratThin';
+  src: local('MontserratThin'), url('./assets/MontserratThin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*{
+font-family: 'Montserrat Thin',sans-serif;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.footer {
+  font-family: 'Adlery Pro Regular', sans-serif;
+}
+
+
